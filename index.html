@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Mastermind</title>
-	<link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-	<fieldset>
-		<legend>Mastermind</legend>
-	<div id="game"></div>
-	<button id="button">Submit</button>
-	<script type="text/javascript" src="game.js"></script>
-	</fieldset>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="kraak">Crack The Code</h1>
+    <h1 id="solved">You Won!</h1>
+    <h1 id="notsolved">You Failed...</h1>
+    <div id="game">
+
+    </div>
+    <div id="side">
+    </div>
+    <a href="#" id="check" onclick="checkcolors()"><b>Next Row</b></a>
+
+  </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>
