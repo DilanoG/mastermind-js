@@ -1,38 +1,74 @@
-.bullet1 {
-	width: 40px;
-	height: 40px;
-	margin-right: 15px;
-	display: inline-block;
-	border: 2px solid black;
+body {
+  position: absolute;
+  left: 35%;
+  top: 0px;
 }
 
-.bullet2 {
-	height: 40px;
-	width: 10px;
-	border: 2px solid black;
-	display: inline-block;
-	margin-right: -2px;
+#bullet_0_0,#bullet_0_1,#bullet_0_2,#bullet_0_3,#bullet_1_0,#bullet_1_1,#bullet_1_2,#bullet_1_3,#bullet_2_0,#bullet_2_1,#bullet_2_2,#bullet_2_3,#bullet_3_0,#bullet_3_1,#bullet_3_2,#bullet_3_3,#bullet_4_0,#bullet_4_1,#bullet_4_2,#bullet_4_3,#bullet_5_0,#bullet_5_1,#bullet_5_2,#bullet_5_3,#bullet_6_0,#bullet_6_1,#bullet_6_2,#bullet_6_3,#bullet_7_0,#bullet_7_1,#bullet_7_2,#bullet_7_3,#bullet_8_0,#bullet_8_1,#bullet_8_2,#bullet_8_3,#bullet_9_0,#bullet_9_1,#bullet_9_2,#bullet_9_3,#bullet_10_0,#bullet_10_1,#bullet_10_2,#bullet_10_3,#bullet_11_0,#bullet_11_1,#bullet_11_2,#bullet_11_3 {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border: solid 3px black;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  top: 11px;
 }
 
-.bulletHolder {
-	margin-bottom: 10px;
-	margin-left: 6px;
+#bullet2_0_0,#bullet2_0_1,#bullet2_0_2,#bullet2_0_3,#bullet2_1_0,#bullet2_1_1,#bullet2_1_2,#bullet2_1_3,#bullet2_2_0,#bullet2_2_1,#bullet2_2_2,#bullet2_2_3,#bullet2_3_0,#bullet2_3_1,#bullet2_3_2,#bullet2_3_3,#bullet2_4_0,#bullet2_4_1,#bullet2_4_2,#bullet2_4_3,#bullet2_5_0,#bullet2_5_1,#bullet2_5_2,#bullet2_5_3,#bullet2_6_0,#bullet2_6_1,#bullet2_6_2,#bullet2_6_3,#bullet2_7_0,#bullet2_7_1,#bullet2_7_2,#bullet2_7_3,#bullet2_8_0,#bullet2_8_1,#bullet2_8_2,#bullet2_8_3,#bullet2_9_0,#bullet2_9_1,#bullet2_9_2,#bullet2_9_3,#bullet2_10_0,#bullet2_10_1,#bullet2_10_2,#bullet2_10_3,#bullet2_11_0,#bullet2_11_1,#bullet2_11_2,#bullet2_11_3 {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border: solid 3px black;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  top: 11px;
 }
 
-#button {
-	margin: 15px 10px;
-	border: 2px solid black;
-	height: 37px;
-	width: 286px;
-	margin-left: 6px;
+#game,#side {
+  background-color: lightgrey;
+  width: 175px;
+  height: 500px;
+  border: solid 2px black;
 }
 
-legend {
-	font-family: sans-serif;
-	font-size: 40px;
-	margin: 0 auto;
+#solved{
+  display: none;
+  color: green;
+  font-weight: bold;
 }
 
-fieldset {
-	width: 300px; 
+#notsolved{
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+#side {
+  position: absolute;
+  left: 175px;
+}
+#game {
+  position: absolute;
+  left: 0;
+}
+#check {
+  position: relative;
+  left: 80px;
+  top: 520px;
+  padding: 10px 32px;
+  background-color: lightgrey;
+  text-decoration: none;
+  color: black;
+  border: solid 3px black;
+  display: none;
+}
+
+#kraak {
+  color: black;
+  font-family: sans-serif;
+  margin: 0 auto;
+
 }
